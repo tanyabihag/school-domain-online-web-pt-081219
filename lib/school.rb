@@ -1,3 +1,9 @@
 class School
+  attr_reader :name
   
-  def inistialize
+  def inistialize(name)
+    @name = name
+  end
+  
+  
+end 
