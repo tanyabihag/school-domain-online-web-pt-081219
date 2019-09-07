@@ -19,7 +19,6 @@ class School
   end
   
   def sort(sorted_students)
-    @roster.sort = sorted_students
-    sorted_students
+    @roster.sort 
   end
 end 
