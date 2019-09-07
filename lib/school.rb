@@ -19,6 +19,6 @@ class School
   end
   
   def sort(sorted_students)
-    @roster.sort 
+    @roster[grade].sort 
   end
 end 
